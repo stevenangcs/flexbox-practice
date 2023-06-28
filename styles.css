@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0,0,255);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    border: 1px solid rgb(255,255,255); /*For Debugging*/
+    width: 900px;
+}
+
