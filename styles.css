@@ -6,7 +6,7 @@
 
 .menu-container {
     color: rgb(255, 255, 255);
-    background-color: rgb(0,0,255);
+    background-color: rgb(0, 102, 255);
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -15,5 +15,88 @@
 .menu {
     border: 1px solid rgb(255,255,255); /*For Debugging*/
     width: 900px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.links {
+    border: 1px solid rgb(255, 255, 255); /*For Debugging*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    color: rgb(0, 162, 255);
+    background-color: rgb(214,233,254);
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup {
+    margin-left: auto;
+}
+
+.social,
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.first-item {
+    order: 1;
+}
+
+.last-item {
+    order: -1;
+}
+
+.photo-grid-item {
+    border: 1px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid rgb(255,255,255);
+    background-color: rgb(214,233,254);
+    height: 200px;
+    flex: 1;
+}
+
+.footer-one,
+.footer-three {
+    background-color: rgb(89,149,218);
+    flex: initial;
+    width: 300px;
+}
